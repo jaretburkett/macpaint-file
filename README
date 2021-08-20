@@ -1,2 +1,12 @@
+
 A MacPaint file format translator. Convert MacPaint PNTG files to PNG.
 
+Originally from https://github.com/thejoelpatrol/macpaint-file . I added some functionality to make it easier to convery bulk images/
+
+Put all the images you want to convert in `./input`. It does not scan subfolders, so they need to be in the root folder
+
+Run this command
+
+`python do_folders.py` 
+
+All the images it can convers will be converted. 
